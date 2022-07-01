@@ -12,6 +12,7 @@
         <h1>Pantallas de Publicidad</h1>
         <form name="Form-Publicidad" netlify>        
             <input id="input-original" placeholder="Nombre" type="text" name="Nombre" required>
+            <input id="input-original" placeholder="Legajo" type="text" name="Legajo" required>
             <p>
                 <label id="input-checkbox">
                     <input value="No reproduce la publicidad y esta en el menu principal" type="checkbox" name="Problema"> 
@@ -30,7 +31,10 @@
                     No hay conección a internet
                 </label>
             </p>
+            <div class="button-class">
                 <button id="save-button" class="save-button" type="submit">Enviar alerta</button>
+                <button id="save-button" class="save-button" type="submit" onclick="location.href='../index.html'">Volver</button>
+            </div>
        </form>
     </main>
 </body>
